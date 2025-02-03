@@ -8,16 +8,35 @@
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css" 
+        integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" crossorigin="anonymous">
+
         <title>Document</title>
 
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
         <nav class="headernav">
-            <ul>
+            <ul class="menu">
                 <li><a href="#"  class="ufoimg" >Company Logo <i class="fa-solid fa-chevron-down"></i></a></li>
                 <li><a href="#" class="active">Active <i class="fa-solid fa-chevron-down"></i></a></li>
-                <li><a href="#">Drop Down <i class="fa-solid fa-chevron-down"></i></a></li>
+                <li>
+                    <a href="#">Drop Down <i class="fa-solid fa-chevron-down"></i></a>
+                    <ul class="submenu">
+                        <li><a href="#">Item one</a></li>
+                        <li>
+                            <a href="#">Item Right side   <i class="fa-solid fa-chevron-right"></i></a>
+                            <ul class="submenu submenu1">
+                                <li></li>
+                            </ul>
+                        
+                        </li>
+                        <li><a href="#">Item two</a></li>
+                        <li><a href="#">Item left side  <i class="fa-solid fa-chevron-left"></i></a></li>
+
+                        <li><a href="#">Item 4</a></li>
+                    </ul>
+                </li>
                 <li><a href="#">Mega Menu <i class="fa-solid fa-chevron-down"></i></a></li>
                 <li><a href="#">Grid <i class="fa-solid fa-chevron-down"></i></a></li>
                 <li><a href="#">Tab Bar <i class="fa-solid fa-chevron-down"></i></a></li>

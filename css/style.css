@@ -1,6 +1,8 @@
 
 body{
     background-image: url(../images/bg5.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8em;
 }
 .headernav{
     width: 1280px;
@@ -27,8 +29,6 @@ body{
     line-height: 12px;
     padding: 19px;
     color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: .8em;
     text-decoration: none;
 }
 
@@ -41,4 +41,68 @@ body{
     background-repeat: no-repeat;
     background-size: 15px 15px;
     background-position: 0px center;
+}
+
+.submenu{
+    position: absolute; 
+    top: 50px;
+    left: 0px;
+    list-style: none;
+    padding: 0px;
+    display: none;
+    
+}
+
+.menu > li {
+   position: relative;
+}
+
+.submenu > li > a{
+
+    display: block;
+    width: 224px;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 26px;
+    background: #fff;
+    color: #55555a;
+    text-decoration: none;
+
+}
+
+.submenu .fa-chevron-left{
+
+}
+
+.submenu .fa-chevron-left{
+
+}
+
+.menu >li > .submenu > li >  a:hover{
+    background-color: #ff6347;
+    color: white;
+}
+
+.submenu1{
+    width: 250px;
+    height: 300px;
+    background: #fff;
+    background: blue;
+    position: absolute;
+    top: 60px;
+    left: 250px !important;
+}
+
+.submenu1 > li{
+    position: relative;
+
+}
+
+.menu  li:hover > .submenu{
+    display: block;
+}
+
+.menu li:hover > a {
+    background:#ff6347;
+    color: #fff;
 }
